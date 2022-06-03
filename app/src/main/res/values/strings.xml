@@ -5,4 +5,13 @@
     <string name="password">Password</string>
     <string name="register">REGISTER</string>
     <string name="login">LOGIN</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="add">ADD</string>
+    <string name="profile_management">Profile Management</string>
+    <string name="user_name_PM">User Name</string>
+    <string name="date_of_birth_PM">Date Of Birth</string>
+    <string name="password_PM">Password</string>
+    <string name="user_name_pm">user_name</string>
+    <string name="male_pm">Male</string>
+    <string name="female_pm">Female</string>
 </resources>
