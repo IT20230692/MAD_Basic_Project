@@ -14,4 +14,10 @@
     <string name="user_name_pm">user_name</string>
     <string name="male_pm">Male</string>
     <string name="female_pm">Female</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="search_ep">Search</string>
+    <string name="delete_EP">DELETE</string>
+    <string name="edit_EP">EDIT</string>
+    <string name="password_EP">Password</string>
+    <string name="gender_EP">Gender</string>
 </resources>
