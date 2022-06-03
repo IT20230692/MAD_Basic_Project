@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MAD_Basic_operations</string>
+    <string name="home">Home</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
 </resources>
