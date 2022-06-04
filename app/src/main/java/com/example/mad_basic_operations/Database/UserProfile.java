@@ -8,9 +8,11 @@ public class UserProfile {
     private UserProfile() {}
 
     /* Inner class that defines the table contents */
-    public static class FeedEntry implements BaseColumns {
-        public static final String TABLE_NAME = "entry";
-        public static final String COLUMN_NAME_TITLE = "title";
-        public static final String COLUMN_NAME_SUBTITLE = "subtitle";
+    public static class Users implements BaseColumns {
+        public static final String TABLE_NAME = "UserInfo";
+        public static final String COLUMN_1 = "userName";
+        public static final String COLUMN_2 = "dateOfBirth";
+        public static final String COLUMN_3 = "password";
+        public static final String COLUMN_4 = "gender";
     }
 }
