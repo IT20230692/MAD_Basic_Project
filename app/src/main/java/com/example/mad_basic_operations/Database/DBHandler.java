@@ -88,7 +88,7 @@ public class DBHandler extends SQLiteOpenHelper {
     }
 
     //delete option
-    public  void deleteInfp(String username){
+    public  void deleteInfo(String username){
         SQLiteDatabase db = getWritableDatabase();
 
         // Define 'where' part of query.
@@ -117,8 +117,8 @@ public class DBHandler extends SQLiteOpenHelper {
         };
 
         // Filter results WHERE "title" = 'My Title'
-        String selection = UserProfile.Users.COLUMN_1 + " = ?";
-        String[] selectionArgs = { "username" };
+        String selection = UserProfile.Users.COLUMN_1 + " LIKE ?";
+        String[] selectionArgs = { username };
 
         // How you want the results sorted in the resulting Cursor
         String sortOrder =
@@ -161,8 +161,8 @@ public class DBHandler extends SQLiteOpenHelper {
         };
 
         // Filter results WHERE "title" = 'My Title'
-        String selection = UserProfile.Users.COLUMN_1 + " = LIKE ?";
-        String[] selectionArgs = { "username" };
+        String selection = UserProfile.Users.COLUMN_1 + " LIKE ?";
+        String[] selectionArgs = { username };
 
         // How you want the results sorted in the resulting Cursor
         String sortOrder =

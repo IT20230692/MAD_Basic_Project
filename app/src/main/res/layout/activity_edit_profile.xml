@@ -25,7 +25,7 @@
         android:layout_margin="10dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/user_name_pm"
+        android:hint="@string/user_name_pm"
         android:autofillHints=""
         tools:ignore="LabelFor" />
 
